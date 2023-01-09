@@ -9,5 +9,10 @@ public class ShapeApp {
         Scanner input = new Scanner(System.in);
         double length = input.nextDouble();
         System.out.println("You  entered : " + length);
+
+        System.out.println("Please enter the length of the rectangle");
+        double width = input.nextDouble();
+        System.out.println("You Entered: " + width);
+
     }
 }
